@@ -1,0 +1,23 @@
+﻿Compilazione avviata 04/06/2012 23:53:49.
+     1>Progetto "D:\Documenti\MGD\GP\GeometryInstancing\SPARK-1.5.5\projects\vc2008\SPARK engine\SPARK DLL.vcxproj" sul nodo 2 (destinazioni: rebuild).
+     1>_PrepareForClean:
+         Eliminazione del file "SPARK Engine CORE DLL\Debug\SPARK Engine CORE DLL.lastbuildstate" in corso.
+       InitializeBuildStatus:
+         Creazione di "SPARK Engine CORE DLL\Debug\SPARK Engine CORE DLL.unsuccessfulbuild". È stato specificato "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPK_CORE_EXPORT /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"SPARK Engine CORE DLL\Debug\\" /Fd"SPARK Engine CORE DLL\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\SPK_All.cpp
+         SPK_All.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\lib\vc2008\dynamic\SPARK_debug.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"SPARK Engine CORE DLL\Debug\SPARK_debug.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documenti\MGD\GP\GeometryInstancing\SPARK-1.5.5\lib\vc2008\dynamic\SPARK_debug.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\lib\vc2008\dynamic\SPARK_debug.lib" /MACHINE:X86 /DLL "SPARK Engine CORE DLL\Debug\SPK_All.obj"
+            Creazione della libreria ..\..\..\lib\vc2008\dynamic\SPARK_debug.lib e dell'oggetto ..\..\..\lib\vc2008\dynamic\SPARK_debug.exp in corso...
+         SPARK DLL.vcxproj -> D:\Documenti\MGD\GP\GeometryInstancing\SPARK-1.5.5\projects\vc2008\SPARK engine\..\..\..\lib\vc2008\dynamic\SPARK_debug.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\lib\vc2008\dynamic\SPARK_debug.dll;#2" /manifest "SPARK Engine CORE DLL\Debug\SPARK_debug.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Eliminazione del file "SPARK Engine CORE DLL\Debug\SPARK Engine CORE DLL.unsuccessfulbuild" in corso.
+         Aggiornamento timestamp di "SPARK Engine CORE DLL\Debug\SPARK Engine CORE DLL.lastbuildstate".
+     1>Compilazione progetto "D:\Documenti\MGD\GP\GeometryInstancing\SPARK-1.5.5\projects\vc2008\SPARK engine\SPARK DLL.vcxproj" (destinazioni: rebuild) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:01.68
