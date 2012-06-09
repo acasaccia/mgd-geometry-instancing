@@ -13,46 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="DXUT">
-      <UniqueIdentifier>{6d9ba2f2-3291-4d4f-a2e8-e6268c8bfe71}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Effects11">
       <UniqueIdentifier>{de57917f-be9d-4bf8-877c-2572699f8540}</UniqueIdentifier>
     </Filter>
     <Filter Include="Renderers">
       <UniqueIdentifier>{edca1dec-0021-4abd-9c8c-568dc3098a34}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{e3b869df-6241-4a1c-bdb3-47547a4f639e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GeometryInstancing.cpp">
       <Filter>File di origine</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\DXUT.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\DXUTDevice9.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\DXUTDevice11.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\DXUTgui.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\DXUTmisc.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\DXUTres.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\DXUTsettingsdlg.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\SDKmesh.cpp">
-      <Filter>DXUT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\DXUT\SDKmisc.cpp">
-      <Filter>DXUT</Filter>
     </ClCompile>
     <ClCompile Include="..\Effects11\d3dx11dbg.cpp">
       <Filter>Effects11</Filter>
@@ -81,35 +54,35 @@
     <ClCompile Include="InstanceRenderer.cpp">
       <Filter>Renderers</Filter>
     </ClCompile>
+    <ClCompile Include="..\DXUT\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\DXUTDevice9.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\DXUTDevice11.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\DXUT\DXUT.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\DXUTDevice9.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\DXUTDevice11.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\DXUTgui.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\DXUTmisc.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\DXUTres.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\DXUTsettingsdlg.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\SDKmesh.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\DXUT\SDKmisc.h">
-      <Filter>DXUT</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Example03 - Rendering di un triangolo (Incomplete)\resource.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
@@ -151,6 +124,33 @@
     </ClInclude>
     <ClInclude Include="GeometryInstancing.h">
       <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\DXUTDevice9.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\DXUTDevice11.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\SDKmisc.h">
+      <Filter>DXUT</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
