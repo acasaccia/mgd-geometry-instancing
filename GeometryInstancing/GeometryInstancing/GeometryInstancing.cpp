@@ -399,9 +399,9 @@ void PrintTitleAndFps(){
 	gmTextHelper->DrawTextLine(cstr);
 
 	if(gbToggleInstancing){
-		gmTextHelper->DrawTextLine(L"(I): toggle Geometry Instancing: ENABLED");
+		gmTextHelper->DrawTextLine(L"(I): Toggle Geometry Instancing: ENABLED");
 	} else {
-		gmTextHelper->DrawTextLine(L"(I): toggle Geometry Instancing: DISABLED");
+		gmTextHelper->DrawTextLine(L"(I): Toggle Geometry Instancing: DISABLED");
 	}
 
 	// Stampa la stringa contenente i FPS
