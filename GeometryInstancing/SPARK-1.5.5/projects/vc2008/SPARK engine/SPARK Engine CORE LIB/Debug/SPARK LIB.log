@@ -1,0 +1,20 @@
+﻿Compilazione avviata 04/06/2012 23:53:57.
+     1>Progetto "D:\Documenti\MGD\GP\GeometryInstancing\SPARK-1.5.5\projects\vc2008\SPARK engine\SPARK LIB.vcxproj" sul nodo 2 (destinazioni: rebuild).
+     1>_PrepareForClean:
+         Eliminazione del file "SPARK Engine CORE LIB\Debug\SPARK Engine CORE LIB.lastbuildstate" in corso.
+       InitializeBuildStatus:
+         Creazione di "SPARK Engine CORE LIB\Debug\SPARK Engine CORE LIB.unsuccessfulbuild". È stato specificato "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /GF- /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"SPARK Engine CORE LIB\Debug\\" /Fd"SPARK Engine CORE LIB\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\SPK_All.cpp
+         SPK_All.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\lib\vc2008\static\SPARK_debug.lib" /NOLOGO "SPARK Engine CORE LIB\Debug\SPK_All.obj"
+         SPARK LIB.vcxproj -> D:\Documenti\MGD\GP\GeometryInstancing\SPARK-1.5.5\projects\vc2008\SPARK engine\..\..\..\lib\vc2008\static\SPARK_debug.lib
+       FinalizeBuildStatus:
+         Eliminazione del file "SPARK Engine CORE LIB\Debug\SPARK Engine CORE LIB.unsuccessfulbuild" in corso.
+         Aggiornamento timestamp di "SPARK Engine CORE LIB\Debug\SPARK Engine CORE LIB.lastbuildstate".
+     1>Compilazione progetto "D:\Documenti\MGD\GP\GeometryInstancing\SPARK-1.5.5\projects\vc2008\SPARK engine\SPARK LIB.vcxproj" (destinazioni: rebuild) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:01.42

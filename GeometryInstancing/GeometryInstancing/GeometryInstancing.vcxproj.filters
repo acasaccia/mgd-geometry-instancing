@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{6d9ba2f2-3291-4d4f-a2e8-e6268c8bfe71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects11">
+      <UniqueIdentifier>{de57917f-be9d-4bf8-877c-2572699f8540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderers">
+      <UniqueIdentifier>{edca1dec-0021-4abd-9c8c-568dc3098a34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeometryInstancing.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\DXUTDevice9.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\DXUTDevice11.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DXUT\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\d3dx11dbg.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\d3dxGlobal.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectAPI.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectLoad.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectNonRuntime.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectReflection.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectRuntime.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRenderer.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceRenderer.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\DXUT\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\DXUTDevice9.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\DXUTDevice11.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DXUT\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Example03 - Rendering di un triangolo (Incomplete)\resource.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\d3dx11dbg.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\d3dx11effect.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\d3dxGlobal.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Effect.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\EffectBinaryFormat.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\EffectLoad.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\EffectStateBase11.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\EffectStates11.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\pchfx.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\SOParser.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRenderer.h">
+      <Filter>Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceRenderer.h">
+      <Filter>Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryInstancing.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Effects11\EffectVariable.inl">
+      <Filter>Effects11</Filter>
+    </None>
+    <None Include="Instancing.fx">
+      <Filter>File di risorse</Filter>
+    </None>
+    <None Include="Particle.png">
+      <Filter>File di risorse</Filter>
+    </None>
+  </ItemGroup>
+</Project>
